@@ -1,12 +1,12 @@
 .boxs{
     position: relative;
-    width: 300px;
-    height: 350px;
+    width: 350px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 40px;
+    margin: 20px;
     transition: 1s;
 }
 .boxs:hover{
@@ -237,7 +237,21 @@ text-align: center;
     padding: 10px;
     opacity: .7;
 }
-
+@media only screen and (max-width: 600px) {
+    .swiper-slide .portimg img{
+    
+        width: 300px;
+       
+    }
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 400px;
+        background: rgb(255, 255, 255);
+        box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+      }
+  }
 
 .fa {
     position: absolute;
@@ -322,6 +336,7 @@ text-align: center;
 .con{
     background-image:url('mypic.jpg');background-size: cover;align-items: center;display: flex;justify-content: center; border: 5px solid #555;  -webkit-filter: grayscale(100%); 
   filter: grayscale(100%);min-height: 100vh;
+  background-repeat:    none;
 }
 
 @media only screen and (max-width: 600px) {
