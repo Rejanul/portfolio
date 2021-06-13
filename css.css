@@ -6,7 +6,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 20px;
+     margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     transition: 1s;
 }
 .boxs:hover{
