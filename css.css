@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 .boxs{
     position: relative;
     width: 300px;
@@ -286,7 +293,7 @@ text-align: center;
     background: #007bb5;
     color: white;
   }
-
+/*
 .card1{
     position: absolute;
     display: inline-flex;
@@ -341,7 +348,7 @@ text-align: center;
      
     }
     
-}
+}*/
 
 .con{
     background-image:url('mypic.jpg');background-size: cover;align-items: center;display: flex;justify-content: center; border: 5px solid #555;  -webkit-filter: grayscale(100%); 
@@ -354,4 +361,78 @@ text-align: center;
         min-height: 50vh;
     }
   }
+
+  .first{
+   
+    text-align:right;
+    position: absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    
+
+}
+.first span{
+    
+   
+    display: block;
+}
+
+.text1{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    margin-bottom: 1px;
+    background: repeating-linear-gradient(to bottom right ,rgb(34, 74, 218),rgb(83, 168, 221));
+    position: relative;
+    animation: text 3s 1;
+
+}
+ .text2{
+     font-size: 30px;
+     color: whitesmoke;
+     margin-bottom: 10px;
+     animation: text2 3.5s 1;
+ }
+ .text3{
+     display: inline;
+     text-transform: uppercase;
+     font-weight: 700 ;
+     font-size: 40px;
+     color: cornsilk;
+ }
+
+ @keyframes text2{
+     0%{
+         margin-bottom: -55px;
+     }
+     30%{
+         margin-bottom: -55px;
+     }
+     85%{
+         margin-bottom: -55px;
+     }
+ }
+  @keyframes text   {
+    0%{
+        color:black;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 30px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
+.text{
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    opacity: .9;
+}
 
